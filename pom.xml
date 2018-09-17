@@ -6,7 +6,7 @@
 
   <groupId>newproject</groupId>
   <artifactId>Web-app</artifactId>
-  <version>SNAPSHOT-1.2.${V}</version>
+  <version>SNAPSHOT-1.2.${BUILD-NUMBER}</version>
   <packaging>war</packaging>
 
   <name>Web-app Maven Webapp</name>
