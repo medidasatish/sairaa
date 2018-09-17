@@ -6,7 +6,7 @@
 
   <groupId>newproject</groupId>
   <artifactId>Web-app</artifactId>
-  <version>SNAPSHOT-1.2.${BUILD-NUMBER}</version>
+  <version>SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>Web-app Maven Webapp</name>
@@ -18,7 +18,9 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  <properties>
+     <build.number>SNAPSHOT</build.number>
+    </propeties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
