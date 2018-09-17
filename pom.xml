@@ -17,10 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-  <properties>
-     <build.number>SNAPSHOT</build.number>
-    </propeties>
+    <build.number>SNAPSHOT</build.number>
+ </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
